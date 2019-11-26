@@ -9,7 +9,6 @@ public class Concert {
         ticket vip = new ticket(400.50, 8, 32.04);
         ticket reservedSeating = new ticket(600.50, 8, 48.04);
 
-
         System.out.println("Listing of All Packages (packages include 8 tickets)");
 
 // calling method
@@ -18,7 +17,6 @@ public class Concert {
         System.out.println("VIP Package - Total Charges: $" + vip.calculateTotal());
 
         System.out.println("Reserved Seating Package - Total Charges: $" + reservedSeating.calculateTotal());
-
     }
 }
 
@@ -39,6 +37,5 @@ class ticket {
         double total;
         total = (price * quantity) + taxAmount;
         return total;
-
     }
 }
