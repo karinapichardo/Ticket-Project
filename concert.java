@@ -29,7 +29,7 @@ class ticket {
     ticket(double price, int quantity, double taxAmount) {
         this.price = price;
         this.quantity = quantity;
-        this.taxAmount = ta;
+        this.taxAmount = taxAmount;
     }
 
     // method to calculate total charges
