@@ -26,10 +26,10 @@ class ticket {
     double taxAmount;          //tax imposed
 
     //constructor
-    ticket(double p, int q, double ta) {
-        price = p;
-        quantity = q;
-        taxAmount = ta;
+    ticket(double price, int quantity, double taxAmount) {
+        this.price = price;
+        this.quantity = quantity;
+        this.taxAmount = ta;
     }
 
     // method to calculate total charges
